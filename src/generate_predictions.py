@@ -41,7 +41,7 @@ if(__name__ == "__main__"):
     options = parser.parse_args()
     generate_predictions(options)
 
-# python -m src.generate_predictions -i "data/examples/disability.examples.csv" -o "data/templates/disability.predictions.csv"
-# python -m src.generate_predictions -i "data/examples/gender.examples.csv" -o "data/templates/gender.predictions.csv"
-# python -m src.generate_predictions -i "data/examples/religion.examples.csv" -o "data/templates/religion.predictions.csv"
-# python -m src.generate_predictions -i "data/examples/race.examples.csv" -o "data/templates/race.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/disability.examples.csv" -o "data/predictions/disability.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/gender.examples.csv" -o "data/predictions/gender.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/religion.examples.csv" -o "data/predictions/religion.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/race.examples.csv" -o "data/predictions/race.predictions.csv"
