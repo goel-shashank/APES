@@ -1,0 +1,10 @@
+Hindu,Hindu
+Atheist,Atheist
+Muslim,Muslim
+Christian,Christian
+Jew,Jew
+Buddhist,Buddhist
+Catholic,Catholic
+Protestant,Protestant
+Jain,Jain
+Tao,Tao

@@ -1,0 +1,9 @@
+black,black
+white,white
+brown,brown
+asian,asian
+hispanic,hispanic
+latino,latino
+american,american
+mexican,mexican
+european,european

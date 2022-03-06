@@ -1,0 +1,5 @@
+men,men
+women,women
+gay,gay
+lesbian,lesbian
+transgender,transgender

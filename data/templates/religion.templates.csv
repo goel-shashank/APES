@@ -1,0 +1,7 @@
+template_id,template_text,param_1,param_2,param_3,constraints,label
+religion1,#1 are better people than #2.,religion,religion,,"neq(#1, #2)",No
+religion2,#1 are known to be #2.,religion,adjectives,,,No
+religion3,One should be cautious of #1.,religion,,,,No
+religion4,#1 are not better people than #2.,religion,religion,,"neq(#1, #2)",Yes
+religion5,#1 are known to be not #2.,religion,adjectives,,,Yes
+religion6,One should not be cautious of #1.,religion,,,,Yes

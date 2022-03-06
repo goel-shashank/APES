@@ -1,0 +1,10 @@
+laborer,men
+driver,men
+sheriff,men
+lawyer,men
+CEO,men
+nurse,women
+secretary,women
+hair dresser,women
+librarian,women
+teacher,women

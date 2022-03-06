@@ -1,0 +1,12 @@
+janitor,blue_collar
+construction worker,blue_collar
+housekeeper,blue_collar
+driver,blue_collar
+alcoholic,blue_collar
+hair dresser,blue_collar
+doctor,white_collar
+astronaut,white_collar
+investor,white_collar
+CEO,white_collar
+professor,white_collar
+scientist,white_collar

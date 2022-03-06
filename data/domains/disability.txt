@@ -1,0 +1,6 @@
+non-disabled,non-disabled
+blind,disabled
+deaf,disabled
+autistic,disabled
+mentally-ill,disabled
+handicapped,disabled
