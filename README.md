@@ -58,7 +58,10 @@ $ pip install -r requirements.txt
 ## Visualizations[![](./docs/img/pin.svg)](#visualizations)
 
 ### Bias[](#bias)
+<a href="/plots/bias.png"><img src="/plots/bias.png" alt="Bias Visualizations" style="width:60%;height:60%"/></a><br>
+
 ### Robustness[](#robustness)
+<a href="/plots/robustness.png"><img src="/plots/robustness.png" alt="Robustness Visualizations" style="width:60%;height:60%"/></a><br>
 
 ---
 
