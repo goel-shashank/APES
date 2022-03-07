@@ -8,6 +8,14 @@
 <p align="center"><img src="https://img.shields.io/badge/license-apache_2.0-red?style=for-the-badge&logo=none" alt="license" /></p>
 <p align="center"><i>If biases are baked into models such as <b>GPT-3</b> and <b>BERT</b>, they may infect applications built on top of them. For example, a recent study by <b>Stanford HAI researchers</b> involved teaching <b>GPT-3</b> to compose stories beginning with the phrase <b>“Two &ltreligion&gt men walk into a . . .”</b>. 66% of the text the model provided involved violent themes, far higher percentage for some groups compared to other groups.</i></p>
 
+## ⭐️ Project Assistance
+If you want to support the active development of `APES`:
+
+- Add a [GitHub Star] (https://github.com/goel-shashank/APES/) to the project.
+- Please contribute interesting templates that can be useful for our dataset by filling this [google form](https://forms.gle/7GDtTRWnjZjQzmtLA).
+
+Together, we can **improve** this project every day! 🤗 
+
 ## ⚡️ Setup
 First, [download](https://www.python.org/downloads/) and install **Python**. Version `3.0` or higher is required.
 > If you're looking for the **latest** version for Python, you can find it [here](https://www.python.org/ftp/python/3.10.2).
@@ -39,8 +47,6 @@ $ pip install -r requirements.txt
       * [Gender](#gender-1)
       * [Race](#race-1)
       * [Religion](#religion-1) 
-- [Project Assistance](#project-assistance)
-
 ---
 
 ## Social Biases[![](./docs/img/pin.svg)](#social-biases)
@@ -125,10 +131,12 @@ What percentage of Templates within each domain extracted the unbiased correct r
 
 #### Bias[](#bias)
 <p align="center"><a  href="/plots/bias.png"><img src="/plots/bias.png" alt="Bias Visualizations" style="width:50%;height:50%"/></a></p><br>
+
 The generated examples are fed to the GPT-3 model, and the responses are compared with the ground truth labels. Green indicates examples where the responses were the same as ground truth (correct) and orange where responses were different from the ground truth (incorrect). The size of the bubble is representative of the density of examples in that region of the plot. 
 
 #### Robustness[](#robustness)
 <p align="center"><a href="/plots/robustness.png"><img src="/plots/robustness.png" alt="Robustness Visualizations" style="width:50%;height:50%"/></a></p><br>
+
 Examples generated from the templates **T** and their negated forms **T'** are fed to the GPT-3 model, and their response is recorded. The y axis shows the difference in the probability between the response for **T** and the response for **T'**. Correct indicates that the response for **T'** was the opposite of that for **T** and incorrect indicates that the response for **T'** was the opposite of that for **T**.
 
 ### Live examples[![](./docs/img/pin.svg)](#live-examples)
@@ -144,16 +152,6 @@ https://user-images.githubusercontent.com/39986265/156997541-c7f8e3bb-3c71-410b-
 
 #### Religion[](#religion-1)
 https://user-images.githubusercontent.com/39986265/156997963-7c0e1ee8-0fa3-4f0e-b5d9-a87af0274ec3.mp4
-
----
-
-## Project Assistance[](#project-assistance)
-If you want to support the active development of `APES`:
-
-- Add a [GitHub Star] ⭐️ (https://github.com/goel-shashank/APES/) to the project.
-- Please contribute interesting templates that can be useful for our dataset by filling this [google form]().
-
-Together, we can **improve** this project every day! 🤗 
 
 ---
 
