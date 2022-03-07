@@ -54,6 +54,7 @@ NLP systems are used by multiple public institutions worldwide for critical asse
 Previously, researchers primarily explored the undesirable biases learned by language models focusing on racial and gender stereotypes but more recently, studies have reported that religion bias is also prevalent. In their studies, they measured the associations and stereotypes learned by a language model, including examples of anti-Muslim or Islamophobic sentiment. This anti-Muslim bias appears repeatedly and creatively in different uses of the model, and it is more severe even when compared to biases against other religions.
 
 **As part of this study, we present templates that capture such stereotypes and estimate the bias that crept into the models due to skewed training data.**
+
 ---
 
 ## Prompt Engineering[![](./docs/img/pin.svg)](#prompt-engineering)
