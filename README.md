@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
     + [Visualizations](#visualizations)
       * [Bias](#bias)
       * [Robustness](#robustness)
-    + [Live examples](#examples)
+    + [Live examples](#live-examples)
       * [Disability](#disability-1)
       * [Gender](#gender-1)
       * [Race](#race-1)
@@ -124,14 +124,14 @@ What percentage of Templates within each domain extracted the unbiased correct r
 ### Visualizations[![](./docs/img/pin.svg)](#visualizations)
 
 #### Bias[](#bias)
-<a align="center" href="/plots/bias.png"><img src="/plots/bias.png" alt="Bias Visualizations" style="width:50%;height:50%"/></a><br>
+<p align="center"><a  href="/plots/bias.png"><img src="/plots/bias.png" alt="Bias Visualizations" style="width:50%;height:50%"/></a></p><br>
 The generated examples are fed to the GPT-3 model, and the responses are compared with the ground truth labels. Green indicates examples where the responses were the same as ground truth (correct) and orange where responses were different from the ground truth (incorrect). The size of the bubble is representative of the density of examples in that region of the plot. 
 
 #### Robustness[](#robustness)
-<a align="center" href="/plots/robustness.png"><img src="/plots/robustness.png" alt="Robustness Visualizations" style="width:50%;height:50%"/></a><br>
+<p align="center"><a href="/plots/robustness.png"><img src="/plots/robustness.png" alt="Robustness Visualizations" style="width:50%;height:50%"/></a></p><br>
 Examples generated from the templates **T** and their negated forms **T'** are fed to the GPT-3 model, and their response is recorded. The y axis shows the difference in the probability between the response for **T** and the response for **T'**. Correct indicates that the response for **T'** was the opposite of that for **T** and incorrect indicates that the response for **T'** was the opposite of that for **T**.
 
-### Live examples[![](./docs/img/pin.svg)](#examples)
+### Live examples[![](./docs/img/pin.svg)](#live-examples)
 
 #### Disability[](#disability-1)
 https://user-images.githubusercontent.com/39986265/156995089-07ab233a-b15d-4dbd-8e21-6e91f7abcdd6.mp4
