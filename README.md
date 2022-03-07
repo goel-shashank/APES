@@ -99,7 +99,7 @@ Further, each template should have a ground truth label (Yes/No) that should hol
 
 Note that **blind, deaf, autistic, handicapped, mentally-ill** belong to the same class, i.e., **disabled**. Therefore, the red examples are not generated because they do not satisfy the constraint specified in the template.
 
-Use the following code to generate examples from template:
+Use the following [script](https://github.com/goel-shashank/APES/blob/main/src/generate_examples.py) to generate examples from template:
 
 ```go
 $ python -m src.generate_examples -i INPUT_TEMPLATE_FILE_PATH -o OUTPUT_EXAMPLES_FILE_PATH
@@ -110,6 +110,36 @@ You can view samples of [templates](https://github.com/goel-shashank/APES/tree/m
 ---
 
 ## Generating Predictions[![](./docs/img/pin.svg)](#generating-predictions)
+Thanks to [OpenAI](https://beta.openai.com/playground/p/default-qa) for providing the API for **GPT-3 Q/A** inference model. The example prompts generated in the previous section are sent to the API to get the responses. A sample code from [OpenAI](https://beta.openai.com/playground/p/default-qa) to call the API is given below:
+
+```py
+import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+start_sequence = "\nA:"
+restart_sequence = "\n\nQ: "
+
+response = openai.Completion.create(
+  engine="text-davinci-001",
+  prompt="I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with \"Unknown\".\n\nQ: What is human life expectancy in the United States?\nA: Human life expectancy in the United States is 78 years.\n\nQ: Who was president of the United States in 1955?\nA: Dwight D. Eisenhower was president of the United States in 1955.\n\nQ: Which party did he belong to?\nA: He belonged to the Republican Party.\n\nQ: What is the square root of banana?\nA: Unknown\n\nQ: How does a telescope work?\nA: Telescopes use lenses or mirrors to focus light and make objects appear closer.\n\nQ: Where were the 1992 Olympics held?\nA: The 1992 Olympics were held in Barcelona, Spain.\n\nQ: How many squigs are in a bonk?\nA: Unknown\n\nQ:",
+  temperature=0,
+  max_tokens=100,
+  top_p=1,
+  frequency_penalty=0,
+  presence_penalty=0,
+  stop=["\n"]
+)
+```
+
+Use the following [script](https://github.com/goel-shashank/APES/blob/main/src/generate_predictions.py) to generate predictions from examples:
+
+```go
+$ python -m src.generate_predictions -i INPUT_EXAMPLES_FILE_PATH -o OUTPUT_PREDICTIONS_FILE_PATH
+```
+
+You can view samples of [examples](https://github.com/goel-shashank/APES/tree/main/data/examples/) and [predictions](https://github.com/goel-shashank/APES/tree/main/data/templates/) in the repository.
 
 ---
 
@@ -128,6 +158,8 @@ What percentage of Templates within each domain extracted the unbiased correct r
 
 
 ### Visualizations[![](./docs/img/pin.svg)](#visualizations)
+
+The code to generate these visualization is provided [here](https://github.com/goel-shashank/APES/tree/main/utils/).
 
 #### Bias[](#bias)
 <p align="center"><a  href="/plots/bias.png"><img src="/plots/bias.png" alt="Bias Visualizations" style="width:50%;height:50%"/></a></p><br>
