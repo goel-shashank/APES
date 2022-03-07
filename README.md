@@ -18,3 +18,63 @@ Install the requirements for this repository using the following command:
 ```go
 $ pip install -r requirements.txt
 ```
+
+--- 
+
+## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
+1. [Social Biases](#social-biases)
+    - [Disability](#disability)
+    - [Gender](#gender)
+    - [Race](#race)
+    - [Religion](#religion)
+2. [Prompt Engineering](#prompt-engineering)
+3. [Generating Predictions](#generating-predictions)
+4. [Visualizations](#visualizations)
+    - [Bias](#bias)
+    - [Robustness](#robustness)
+5. [Examples](#examples)
+6. [Project Assistance](#project-assistance)
+7. [Licensing](#licensing)
+
+---
+
+## Social Biases[![](./docs/img/pin.svg)](#social-biases)
+
+### Disability[](#disability)
+### Gender[](#gender)
+### Race[](#race)
+### Religion[](#religion)
+
+---
+
+## Prompt Engineering[![](./docs/img/pin.svg)](#prompt-engineering)
+
+---
+
+## Generating Predictions[![](./docs/img/pin.svg)](#generating-predictions)
+
+---
+
+## Visualizations[![](./docs/img/pin.svg)](#visualizations)
+
+### Bias[](#bias)
+### Robustness[](#robustness)
+
+---
+
+## Examples[![](./docs/img/pin.svg)](#examples)
+
+---
+
+## ⭐️ Project Assistance[](#project-assistance)
+If you want to support the active development of `APES`:
+
+- Add a [GitHub Star](https://github.com/goel-shashank/APES/) to the project.
+- Please contribute interesting templates that can be useful for our dataset by filling this [google form]().
+
+Together, we can **improve** this project every day! 🤗 
+
+---
+
+## ⚠️ Licensing[](#licensing)
+`APES` is free and open-source software licensed under the [Apache 2.0 License](https://github.com/goel-shashank/APES/blob/main/LICENSE).
