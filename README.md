@@ -11,7 +11,7 @@
 ## ⭐️ Project Assistance
 If you want to support the active development of `APES`:
 
-- Add a [GitHub Star] (https://github.com/goel-shashank/APES/) to the project.
+- Add a [GitHub Star](https://github.com/goel-shashank/APES/) to the project.
 - Please contribute interesting templates that can be useful for our dataset by filling this [google form](https://forms.gle/7GDtTRWnjZjQzmtLA).
 
 Together, we can **improve** this project every day! 🤗 
