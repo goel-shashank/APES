@@ -6,7 +6,7 @@ import argparse
 import pandas as pd
 from tqdm import tqdm
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_predictions(options):
     df_examples = pd.read_csv(options.examples_file)
