@@ -64,6 +64,18 @@ $ pip install -r requirements.txt
 
 ## Examples[![](./docs/img/pin.svg)](#examples)
 
+### Disability
+https://user-images.githubusercontent.com/39986265/156995089-07ab233a-b15d-4dbd-8e21-6e91f7abcdd6.mp4
+
+### Gender
+https://user-images.githubusercontent.com/39986265/156996716-8cca702a-a5d3-4a0f-bd94-cb09ffa5861f.mp4
+
+### Race
+https://user-images.githubusercontent.com/39986265/156997541-c7f8e3bb-3c71-410b-b08d-60a75d14a8fe.mp4
+
+### Religion
+https://user-images.githubusercontent.com/39986265/156997963-7c0e1ee8-0fa3-4f0e-b5d9-a87af0274ec3.mp4
+
 ---
 
 ## ⭐️ Project Assistance[](#project-assistance)
@@ -75,6 +87,7 @@ If you want to support the active development of `APES`:
 Together, we can **improve** this project every day! 🤗 
 
 ---
+
 
 ## ⚠️ Licensing[](#licensing)
 `APES` is free and open-source software licensed under the [Apache 2.0 License](https://github.com/goel-shashank/APES/blob/main/LICENSE).
