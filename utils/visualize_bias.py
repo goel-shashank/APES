@@ -30,14 +30,14 @@ df_religion["Type of Social Bias"] = "Religion"
 df_race["Type of Social Bias"] = "Race"
 
 df = pd.concat([df_disability, df_gender, df_religion, df_race])
-df["Correct"] = (df["prediction"] != df["label"]).apply(lambda x: "Incorrect" if(x) else "Correct")
+df["Incorrect"] = (df["prediction"] != df["label"]).apply(lambda x: "Incorrect" if(x) else "Correct")
 df["Probability"] = df["confidence"]
 df["Bucket"] = pd.qcut(df["Probability"], 50, labels = False)
-sizes = df.groupby(["Type of Social Bias", "Correct", "Bucket"]).size()
-df = df.groupby(["Type of Social Bias", "Correct", "Bucket"]).agg("mean").reset_index()
+sizes = df.groupby(["Type of Social Bias", "Incorrect", "Bucket"]).size()
+df = df.groupby(["Type of Social Bias", "Incorrect", "Bucket"]).agg("mean").reset_index()
 
 fig, ax = plt.subplots()
-sns.stripplot(x = df["Type of Social Bias"], y = df["Probability"], hue = df["Correct"], sizes = sizes * 5, palette = "Set2", dodge = True)
+sns.stripplot(x = df["Type of Social Bias"], y = df["Probability"], hue = df["Incorrect"], sizes = sizes * 5, palette = "Set2", dodge = True)
 ax.get_legend().remove()
 ax.legend(loc = "upper center", bbox_to_anchor = (0.5, 1.1), ncol = 2, fancybox = True, shadow = True)
 ax.set_ylabel(ax.get_ylabel(), labelpad = 15)
