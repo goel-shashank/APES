@@ -43,9 +43,13 @@ $ pip install -r requirements.txt
 
 ## Social Biases[![](./docs/img/pin.svg)](#social-biases)
 
+<!-- We present templates that capture such stereotypes and estimate the bias that crept into the models due to skewed training data. -->
 ### Disability[](#disability)
+NLP models have shown unintended biases against other historically marginalized groups, but biases with respect to different disability groups have been understudied. Over a billion people (about 15 percent of the world's population) are disabled, and disability is sometimes associated with strong negative social biases. Previous studies have found implicit and explicit prejudices against people with disabilities among social group members, reflected in the NLP data. 
 ### Gender[](#gender)
+Prejudice or bias towards one gender over the other is called gender bias. Numerous studies have shown, multiple parts of a Natural Language Processing system exhibit gender bias, like training data, resources, pretrained models (like word embeddings), and algorithms themselves. Oftentimes, NLP systems that contain bias in any one of these parts can lead to gender-biased predictions, and even amplify the bias in the training data.
 ### Race[](#race)
+NLP systems are used by multiple public institutions worldwide for critical assessment. Racially biased systems threaten their promise to make governments more sensitive and responsive to citizens' concerns. Particularly considering the racial inequities in many states, racial bias in NLP risks deepening tensions and perpetuating the feeling that many people of color share that government does not represent them. Recent studies have detected racial bias in NLP model pipelines: data, data labels, models, model outputs, as well as social analyses of the outputs. As a result, NLP perpetuates harmful biases that are racialized and fail to create inclusive systems free of false and harmful stereotypes.
 ### Religion[](#religion)
 
 ---
