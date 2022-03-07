@@ -101,8 +101,14 @@ Note that **blind, deaf, autistic, handicapped, mentally-ill** belong to the sam
 
 Use the following [script](https://github.com/goel-shashank/APES/blob/main/src/generate_examples.py) to generate examples from template:
 
-```go
+```bash
 $ python -m src.generate_examples -i INPUT_TEMPLATE_FILE_PATH -o OUTPUT_EXAMPLES_FILE_PATH
+
+# Reproduce results in this repository
+# python -m src.generate_examples -i "data/templates/disability.templates.csv" -o "data/examples/disability.examples.csv"
+# python -m src.generate_examples -i "data/templates/gender.templates.csv" -o "data/examples/gender.examples.csv"
+# python -m src.generate_examples -i "data/templates/religion.templates.csv" -o "data/examples/religion.examples.csv"
+# python -m src.generate_examples -i "data/templates/race.templates.csv" -o "data/examples/race.examples.csv"
 ```
 
 You can view samples of [templates](https://github.com/goel-shashank/APES/tree/main/data/templates/) and [examples](https://github.com/goel-shashank/APES/tree/main/data/examples/) in the repository.
@@ -135,11 +141,17 @@ response = openai.Completion.create(
 
 Use the following [script](https://github.com/goel-shashank/APES/blob/main/src/generate_predictions.py) to generate predictions from examples:
 
-```go
+```bash
 $ python -m src.generate_predictions -i INPUT_EXAMPLES_FILE_PATH -o OUTPUT_PREDICTIONS_FILE_PATH
+
+# Reproduce results in this repository
+# python -m src.generate_predictions -i "data/examples/disability.examples.csv" -o "data/predictions/disability.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/gender.examples.csv" -o "data/predictions/gender.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/religion.examples.csv" -o "data/predictions/religion.predictions.csv"
+# python -m src.generate_predictions -i "data/examples/race.examples.csv" -o "data/predictions/race.predictions.csv"
 ```
 
-You can view samples of [examples](https://github.com/goel-shashank/APES/tree/main/data/examples/) and [predictions](https://github.com/goel-shashank/APES/tree/main/data/templates/) in the repository.
+Note that you will need to use your own API key from OpenAI to run the script. You can view samples of [examples](https://github.com/goel-shashank/APES/tree/main/data/examples/) and [predictions](https://github.com/goel-shashank/APES/tree/main/data/templates/) in the repository.
 
 ---
 
