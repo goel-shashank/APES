@@ -42,11 +42,11 @@ $ pip install -r requirements.txt
     + [Visualizations](#visualizations)
       * [Bias](#bias)
       * [Robustness](#robustness)
-    + [Live examples](#live-examples)
+<!--     + [Live examples](#live-examples)
       * [Disability](#disability-1)
       * [Gender](#gender-1)
       * [Race](#race-1)
-      * [Religion](#religion-1) 
+      * [Religion](#religion-1)  -->
 ---
 
 ## Social Biases[![](./docs/img/pin.svg)](#social-biases)
