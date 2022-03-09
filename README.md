@@ -54,12 +54,24 @@ $ pip install -r requirements.txt
 <!-- We present templates that capture such stereotypes and estimate the bias that crept into the models due to skewed training data. -->
 ### Disability[](#disability)
 NLP models have shown unintended biases against other historically marginalized groups, but biases concerning different disability groups have been understudied. Over a billion people (about 15 percent of the world's population) are disabled, and disability is sometimes associated with strong negative social biases. Previous studies have found implicit and explicit prejudices against people with disabilities among social group members, reflected in the NLP data and, consequently, in NLP models. 
+
+https://user-images.githubusercontent.com/39986265/156995089-07ab233a-b15d-4dbd-8e21-6e91f7abcdd6.mp4
+
 ### Gender[](#gender)
 Prejudice or bias towards one gender over the other is called gender bias. Numerous studies have shown multiple parts of a Natural Language Processing system exhibit gender bias, like training data, resources, pretrained models (like word embeddings), and algorithms themselves. Often, NLP systems that contain bias in any one of these parts can lead to gender-biased predictions and even amplify the bias in the training data.
+
+https://user-images.githubusercontent.com/39986265/156996716-8cca702a-a5d3-4a0f-bd94-cb09ffa5861f.mp4
+
+
 ### Race[](#race)
 NLP systems are used by multiple public institutions worldwide for critical assessment. Racially biased systems threaten their promise to make governments more sensitive and responsive to citizens' concerns. Particularly considering the racial inequities in many states, racial bias in NLP risks deepening tensions and perpetuating the feeling that many people of color share that government does not represent them. Recent studies have detected racial bias in NLP model pipelines: data, data labels, models, model outputs, and social analyses of the outputs. As a result, NLP perpetuates harmful biases that are racialized and fails to create inclusive systems free of false and harmful stereotypes.
+
+https://user-images.githubusercontent.com/39986265/156997541-c7f8e3bb-3c71-410b-b08d-60a75d14a8fe.mp4
+
 ### Religion[](#religion)
 Previously, researchers primarily explored the undesirable biases learned by language models focusing on racial and gender stereotypes but more recently, studies have reported that religious bias is also prevalent. Their studies measured the associations and stereotypes learned by a language model, including examples of anti-Muslim or Islamophobic sentiment. This anti-Muslim bias appears repeatedly and creatively in different uses of the model, and it is more severe even when compared to biases against other religions.
+
+https://user-images.githubusercontent.com/39986265/156997963-7c0e1ee8-0fa3-4f0e-b5d9-a87af0274ec3.mp4
 
 **In this study, we present templates that capture stereotypes faced by these minority groups and estimate the bias that crept into the models due to skewed training data.**
 
@@ -183,7 +195,7 @@ The generated examples are fed to the GPT-3 model, and the responses are compare
 
 Examples generated from the templates **T** and their negated forms **T'** are fed to the GPT-3 model, and their response is recorded. The y axis shows the difference in the probability between the response for **T** and the response for **T'**. Correct indicates that the response for **T'** was the opposite of that for **T** and incorrect indicates that the response for **T'** was the opposite of that for **T**.
 
-### Live examples[![](./docs/img/pin.svg)](#live-examples)
+<!-- ### Live examples[![](./docs/img/pin.svg)](#live-examples)
 
 #### Disability[](#disability-1)
 https://user-images.githubusercontent.com/39986265/156995089-07ab233a-b15d-4dbd-8e21-6e91f7abcdd6.mp4
@@ -195,7 +207,7 @@ https://user-images.githubusercontent.com/39986265/156996716-8cca702a-a5d3-4a0f-
 https://user-images.githubusercontent.com/39986265/156997541-c7f8e3bb-3c71-410b-b08d-60a75d14a8fe.mp4
 
 #### Religion[](#religion-1)
-https://user-images.githubusercontent.com/39986265/156997963-7c0e1ee8-0fa3-4f0e-b5d9-a87af0274ec3.mp4
+https://user-images.githubusercontent.com/39986265/156997963-7c0e1ee8-0fa3-4f0e-b5d9-a87af0274ec3.mp4 -->
 
 ---
 
